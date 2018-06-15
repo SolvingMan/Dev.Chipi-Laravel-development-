@@ -1,0 +1,72 @@
+
+.btn{
+	border-radius: 0;
+  	text-transform: uppercase;
+  	font-size: 13px;
+  	height: 39px;
+  	padding: 0 35px;
+  	
+  	.transition(0.2s);
+  	&.form-control-feedback{
+	    border: none;
+	    pointer-events: auto;
+  	}
+	&:focus,
+    &.focus{
+	    outline: none;
+        outline-style: none;
+  	}
+  	&:hover,
+  	&:focus{
+  		.transition(0.2s);
+  	}
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  	outline: none;
+ 	outline-style: none; 
+}
+.btn-lg{
+	height: 60px;
+	font-size: 18px;
+}
+.btn-sm{
+	height: 28px;
+	font-size: 12px;
+}
+a{
+	&.btn{
+		height: auto;
+		line-height: 37px;
+	}
+	&.btn-lg{
+		height: auto;
+		line-height: 60px;
+	}
+	&.btn-sm{
+		height: auto;
+		line-height: 28px;
+	}
+}
+.btn-default{
+   .button-variables-outline(#6b6b6b, transparent, #e3e3e3, #fff, @color-font_theme, #e3e3e3);
+}
+.btn-inline{
+   .button-variables-outline(#fff, @color-font_theme, @color-font_theme, #fff, #171717, #171717);
+}
+.btn-inline-sub{
+   .button-variables-outline(#fff, #9a9a9a, #9a9a9a, #fff, @color-font_theme, @color-font_theme);
+}
+
+.hp1-btn {
+	.button-variables-outline(#666666, #fff, #fff, #fff, #3f5266, #3f5266);
+	height: 38px;
+}
+a.hp1-btn {
+	line-height: 38px;
+	height: auto;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<main class="site-main">
+    <div class="container">
+        <ol class="breadcrumb no-hide">
+            <li><a href="/{{$siteslug}}">איביי בעברית </a></li>
+            <li><a href="/{{$siteslug}}/categoryMap/{{ $breadCramb['category_id']}}"><span>{{ $breadCramb['category'] }} </span></a></li>
+            <li><span>{{ $breadCramb['subCategory'] }} </span></li>
+            <li class="active"><a href="#">{{ $breadCramb['subSubCategory'] }} </a></li>
+        </ol><!-- Block  Breadcrumb-->
+
+        <div class="next-category-wrap">
+                <div class="toolbar-products toolbar-top"><h1 class="cate-title">{{ $categoryData['title'] }}</h1>
+                </div>
+                <div class="products  products-grid">
+                    <ol class="product-items row">
+                        @for($i=0;$i<count($ebayData);$i+=1)
+                        <li class="col-sm-3 product-item ">
+                            <div class="product-item-opt-1">
+
+                                <a href="{{$productBase}}/{{ (explode("/", $ebayData[$i]->productUrl)[4])}}/{{explode("?",explode("/", $ebayData[$i]->productUrl)[5])[0] }}?categoryID={{$categoryData["id"]}}">
+                                <div class="product-item-photo">
+                                    <div class=" loader-product"></div>
+                                    <img class="category-fixed-size-image"
+                                         src='{{"https://galleryplus.ebayimg.com/ws/web/" . $ebayData[$i]->productId . "_1_1_1.jpg"}}'
+                                         alt="{{$ebayData[$i]->productTitle}}"
+                                         onerror=this.src='{{str_replace("http:","https:",$ebayData[$i]->imageUrl)}}'>
+                                </div>
+                                <div class="product-item-detail">
+                                    <strong class="product-item-name" style="min-height: 60px; height: 60px; overflow: hidden;">
+                                        <span>{{$ebayData[$i]->productTitle}}</span>
+                                    </strong>
+                                    <div class="clearfix">
+                                        <div class="product-item-price">
+                                            <span class="price">&#8362;{{ $ebayData[$i]->price }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                        @endfor
+                    </ol><!-- list product -->
+                </div> <!-- List Products -->
+
+                <!-- Toolbar -->
+                <div class=" toolbar-products toolbar-bottom pagination-sort-direction">
+                    @if(isset($pagination))
+                    <ul class="pagination">
+                        @foreach($pagination as $pageNum=>$pageUrl)
+                        <li @if($pageNum==$page)
+                            class="active"
+                            @endif>
+                            <a href="{{$pageUrl}}">
+                                {{$pageNum}}
+                            </a>
+                        </li>
+                        @endforeach
+                        @if(isset($pageNext))
+                        <li class="action action-next">
+                            <a href="{{$pageNext}}">
+                                <span><i aria-hidden="true" class="fa fa-angle-double-left"></i></span>הבא
+                            </a>
+                        </li>
+                        @endif
+                    </ul>
+                    @endif
+                </div><!-- Toolbar -->
+        </div>
+
+    </div>
+</main>
+</body>
+</html>

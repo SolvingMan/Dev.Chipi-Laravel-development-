@@ -1,0 +1,5 @@
+[01-Aug-2017 12:10:31 Asia/Jerusalem] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'shippingPrice' cannot be null' in /home/chipi/dev.chipi.co.il/public/scripts_cron/ebay_daily_deals.php:48
+Stack trace:
+#0 /home/chipi/dev.chipi.co.il/public/scripts_cron/ebay_daily_deals.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/chipi/dev.chipi.co.il/public/scripts_cron/ebay_daily_deals.php on line 48

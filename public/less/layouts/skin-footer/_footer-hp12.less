@@ -1,0 +1,151 @@
+
+
+.footer-opt-12 {
+	background-color: #fff;
+	border-top: 5px solid #EEEEEE;
+	padding: 0;
+	font-family: 'Arimo', sans-serif;
+	color: #666666;
+	font-size: 14px;
+	.block-newletter {
+		margin-bottom: 15px;
+		max-width: 500px;
+		.block-title {
+			margin: 15px 0 17px;
+			font-size: 16px;
+			color: #333;
+			text-transform: uppercase;
+			line-height: 1.1;
+			font-family: 'Oswald', sans-serif;
+			font-weight: 300;
+		}
+		.form-control {
+			height: 40px;
+			background-color: transparent;
+			border-color: #999;
+		}
+		.btn-subcribe {
+			height: 40px;
+			font-size: 16px;
+			font-weight: 300;
+			background-color: #10A8AB;
+			border-color: #10A8AB;
+			font-family: 'Oswald', sans-serif;
+		}
+	}
+	.block-social {
+		margin-bottom: 38px;
+		.block-title {
+			margin: 15px 0 20px;
+			font-size: 16px;
+			color: #333;
+			text-transform: uppercase;
+			line-height: 1.1;
+			font-family: 'Oswald', sans-serif;
+			font-weight: 300;
+		}
+		.block-content {
+			a {
+				color: #999999;
+				border-color: #999999;
+				margin-left: 20px;
+				width: 32px;
+				line-height: 30px;
+				&:last-child {
+					margin-left: 0;
+				}
+				&:hover {
+					background-color: @color-font_theme_skin11;
+					border-color: @color-font_theme_skin11;
+				}
+
+			}
+		}
+		
+	}
+	.footer-column {
+		margin-bottom: 28px;
+		padding-bottom: 0;
+		padding-top: 12px;
+		.clearfix();
+		.column-left {
+			width: 60%;
+			float: right;
+		}
+
+		.column-right {
+			width: 40%;
+			float: right;
+		}
+		@media(max-width: 991px) {
+			.column-left {
+				width: 100%;
+			}
+
+			.column-right {
+				width: 100%;
+			}
+		}
+		.links {
+			h3.title {
+				margin: 15px 0 17px;
+				font-size: 16px;
+				color: #333;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 300;
+			}
+			a {
+				color: #666666;
+				&:hover ,
+				&:focus {
+					color: @color-font_theme_skin11;
+				}
+			}
+		}
+		
+	}
+	.payment-methods {
+		border-top: 1px solid #dedede;
+		padding: 15px 0;
+		img {
+			cursor: pointer;
+			&:hover {
+				.filter(grayscale(100%));
+			}
+		}
+
+	}
+	.footer-bottom {
+		border-top: 1px solid #dedede;
+		padding-bottom: 10px;
+		.links {
+			margin-bottom: 10px;
+			ul {
+				margin-bottom: 0;
+			}
+			a {
+				color: #666666;
+				line-height: 14px;
+				&:hover ,
+				&:focus {
+					color: @color-font_theme_skin11;
+				}
+				&:after {
+					background-color: #999999;
+					height: 14px;
+				}
+			}
+		}
+	}
+	
+	.copyright {
+		display: block;
+		color: #333;
+		text-align: center;
+		padding: 0;
+		margin-bottom: 20px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: normal;
+	}
+	
+}

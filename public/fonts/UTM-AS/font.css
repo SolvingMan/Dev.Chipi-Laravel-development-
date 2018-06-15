@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'UTM-AS';
+  src: url('UTM-AS.eot');
+  src: url('UTM-AS.woff2') format('woff2'),
+       url('UTM-AS.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTMA&SSignwriter';
+  src: url('UTMA&SSignwriter.woff') format('woff'),
+       url('UTMA&SSignwriter.ttf') format('truetype'),
+       url('UTMA&SSignwriter.svg#UTMA&SSignwriter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

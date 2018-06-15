@@ -1,0 +1,65 @@
+
+.nav-tabs{
+	margin-bottom: 15px;
+	> li{
+		> a{
+			border-radius: 0;
+			&:hover,
+			&:focus{
+				border-color: #ddd #ddd transparent;
+				background-color: #fff;
+			}
+		}
+		&.active{
+			> a{
+				&,
+				&:hover,
+				&:focus{
+					color: @color-font_theme;
+				}
+			}
+		}
+	}
+}
+.nav-pills{
+	margin-bottom: 15px;
+	> li{
+		> a{
+			border-radius: 0;
+			&:hover,
+			&:focus{
+				color: #fff;
+				background-color: #5e5e5e;
+
+			}
+		}
+		&.active{
+			> a{
+				&,
+				&:hover,
+				&:focus{
+					color: #fff;
+					background-color: #5e5e5e;
+				}
+			}
+		}
+	}
+}
+
+.tab-content {
+	> .tab-pane{
+		width: 100%;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		.transition(0.3s);
+		&.active {
+			z-index: 30;
+			position: static;
+			opacity: 1;
+			visibility: visible;
+			.transition(0.3s);
+		}
+	}
+}

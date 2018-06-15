@@ -1,0 +1,45 @@
+
+.form-control{
+	border-radius: 0;
+	box-shadow: none;
+  .box-shadow(none);
+  outline-style: none;
+  outline-width: 0;
+	border: 1px solid #ececec;
+	&::-moz-placeholder{
+		color: #999;
+		opacity: 1;
+	}
+	&:-ms-input-placeholder { 
+    	color: #999; 
+  	}
+  	&::-webkit-input-placeholder  { 
+    	color: #999;
+  	} 
+  	&:hover,
+  	&:focus {
+  		box-shadow: none;
+      .box-shadow(none);
+  		border: 1px solid #ececec;
+  	}
+}
+
+select.form-control {
+	 -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-position: center left 11px;
+   background-repeat: no-repeat;
+   background-image: url(../images/icon/arrow-select.png);
+   padding-left: 22px;
+}
+.input-group-addon{
+	border-radius: 0;
+}
+
+select::-ms-expand {
+    display: none;
+}
+select.input-sm {
+  line-height: 1;
+}

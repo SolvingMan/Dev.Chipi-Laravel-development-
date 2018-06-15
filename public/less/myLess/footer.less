@@ -1,0 +1,161 @@
+footer.main-footer {
+	background-color: #eee;
+	color: #fff;
+	.title {
+		color: #333;
+	}
+	.footer-column .links li {
+		color: #333;
+	}
+  .big-text {
+	font-size: 12px;
+	width: 95%;
+  }
+   .dropdown.setting {
+		a {
+			color: #666;
+		}
+   }
+   .block-title, .copyright {
+	   color: #333;
+   }
+	.payment-methods {
+		.block-title {
+			font-size: 20px;
+		}
+	}
+	.copyright {
+		text-align: center;
+	}
+	.block-newletter {
+		.widget-title-sm {
+			color: #333;
+			margin-top: 24px;
+			text-align: center;
+		}
+		label {
+			color: #666;
+		}
+	}
+	.logo-footer {
+		height: auto;
+		a {
+			display: block;
+			margin-top: 38px;
+		}
+	}
+
+  #newsletter {
+	.btn {
+	  background-color: #f78031;
+	  &:hover {
+		background-color: #ec6409;
+	  }
+	}
+  }
+}
+#newsletter-modal_signin {
+	.modal-header {
+	  height: 60px;
+	  text-align: center;
+	}
+	img {
+	  width: 400px;
+	}
+  .modal-header {
+	.modal-logo {
+	  width: 90px;
+	}
+  }
+
+}
+
+//--------------------English language-----------------//
+ .cms-rtl body.eng-lang {
+	 footer.main-footer {
+		 .payment-methods {
+			 .block-title {
+				 font-size: 13px;
+			 }
+		 }
+	 }
+ }
+//--------------------English language-----------------//
+
+@media (min-width: 1200px){
+  #newsletter-modal_signin {
+	.modal-dialog {
+	  width: 800px;
+	}
+  }
+}
+
+@media (max-width: 991px){
+  #newsletter-modal_signin {
+	.modal-dialog {
+	  h3 {
+		font-size: 18px;
+	  }
+	}
+  }
+	footer.main-footer {
+		.logo-footer {
+			a {
+				width: 40%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+  #newsletter-modal_signin {
+	.btn.btn-default {
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	}
+	.modal-dialog {
+	  h3 {
+		font-size: 16px;
+	  }
+	}
+	img {
+	  width: 300px;
+	}
+  }
+	footer.main-footer {
+		.logo-footer  {
+			a {
+				width: 90%;
+				margin-right: 0;
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+@media (max-width: 479px){
+  #newsletter-modal_signin {
+	.modal-header {
+	  height: 45px;
+	  .modal-logo {
+		width: 50px;
+	  }
+	}
+	.modal-dialog {
+	  h3 {
+		margin-top: 0;
+		font-size: 14px;
+	  }
+	}
+	img {
+	  width: 200px;
+	}
+  }
+	footer.main-footer .logo-footer a {
+		width: 100%;
+	}
+}

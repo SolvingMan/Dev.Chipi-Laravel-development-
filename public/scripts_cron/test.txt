@@ -1,0 +1,23 @@
+stdClass Object
+(
+    [id] => 77778945
+    [productID] => 222240189354
+    [numInCart] => 3
+    [status] => cart
+    [summaryId] => 
+    [userId] => 13710
+    [productUrl] => https://www.chipi.co.il/ebay/product/Studio-Self-adhesive-Granite-Marble-Texture-Background-Backdrops-Fr-Photo-Props-/222240189354
+    [sitename] => ebay
+    [title] => Studio Self-adhesive Granite Marble Texture Background Backdrops Fr Photo Props
+    [productPrice] => 34
+    [originalProductPrice] => 4.95
+    [shippingPrice] => 0
+    [originalShippingPrice] => 0
+    [shippingCompany] => E
+    [availableQuantity] => 4
+    [selectedSku] => null
+    [image] => http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ZsgAAOSwSzFZYIJB/$_12.JPG?set_id=880000500F
+    [quantity] => 1
+    [marketMessage] => 4
+    [lastMsg] => 2017-07-18 00:00:00
+)

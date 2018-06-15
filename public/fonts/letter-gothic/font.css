@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'LetterGothic';
+  src: url('LetterGothic.woff') format('woff'),
+       url('LetterGothic.ttf') format('truetype'),
+       url('LetterGothic.svg#LetterGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'letter-gothic';
+  src: url('letter-gothic.eot');
+  src: url('letter-gothic.woff2') format('woff2'),
+       url('letter-gothic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

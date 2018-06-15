@@ -1,0 +1,6 @@
+[21-Apr-2017 17:13:27 Asia/Jerusalem] PHP Warning:  scandir(/home/chipi/dev.chipi.co.il/public../..): failed to open dir: No such file or directory in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5
+[21-Apr-2017 17:13:27 Asia/Jerusalem] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5
+[21-Apr-2017 17:13:27 Asia/Jerusalem] PHP Warning:  Invalid argument supplied for foreach() in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5
+[21-Apr-2017 17:13:29 Asia/Jerusalem] PHP Warning:  scandir(/home/chipi/dev.chipi.co.il/public../..): failed to open dir: No such file or directory in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5
+[21-Apr-2017 17:13:29 Asia/Jerusalem] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5
+[21-Apr-2017 17:13:29 Asia/Jerusalem] PHP Warning:  Invalid argument supplied for foreach() in /home/chipi/dev.chipi.co.il/public/js/less/knack.php on line 5

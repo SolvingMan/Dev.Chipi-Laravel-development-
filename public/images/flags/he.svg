@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="26px" viewBox="0 0 35 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>israel flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="35" height="26"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="35" height="26" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Product-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-page---item-return-policy-UK" transform="translate(-932.000000, -1332.000000)">
+            <g id="Group" transform="translate(192.000000, 1264.000000)">
+                <g id="lang-tabs" transform="translate(574.000000, 68.000000)">
+                    <g id="israel-flag" transform="translate(166.000000, 0.000000)">
+                        <use id="Rectangle-1" stroke="#E6E6E6" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <path d="M0,3 L35,3 L35,6 L0,6 L0,3 Z M0,20 L35,20 L35,23 L0,23 L0,20 Z M13,9.99938191 L16.3333333,9.99938191 L18,7 L19.6666667,9.99938191 L23,9.99938191 L21.3341264,12.9995879 L23,15.999794 L19.6666667,15.999794 L18,19 L16.3333333,15.999794 L13,15.999794 L14.6666667,12.9995879 L13,9.99938191 Z M18,8.58931392 L17.2168292,9.99938191 L18.7835673,9.99938191 L18,8.58931392 Z M20.1088112,10.794657 L20.892775,12.2055491 L21.6759458,10.794657 L20.1088112,10.794657 Z M20.8923785,13.794863 L20.1084146,15.204931 L21.6751527,15.204931 L20.8923785,13.794863 Z M17.2168292,15.999794 L18,17.409862 L18.7835673,15.999794 L17.2168292,15.999794 Z M15.1080181,12.2055491 L15.8919819,10.794657 L14.3244508,10.794657 L15.1080181,12.2055491 Z M15.5493695,12.9995879 L16.7746847,15.2045189 L19.2249187,15.2045189 L20.450234,12.9995879 L19.2249187,10.7942449 L16.7746847,10.7942449 L15.5493695,12.9995879 Z M15.1080181,13.794863 L14.3240542,15.204931 L15.8915854,15.204931 L15.1080181,13.794863 Z" id="Combined-Shape" fill="#414AA9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

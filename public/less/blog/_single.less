@@ -1,0 +1,238 @@
+
+.post-detail {
+	.post-item-info {
+		.post-item-photo {
+			display: block;
+			img {
+				width: 100%;
+				display: block;
+			}
+		}
+		.post-item-name {
+			font-weight: 600;
+			font-size: 16px;
+			color: #333333;
+			margin: 24px 0 15px;
+			display: block;
+		}
+		.post-item-athur {
+			font-size: 12px;
+			color: #aaaaaa;
+			margin-bottom: 18px;
+		}
+		.post-item-des {
+			color: #666666;
+			font-size: 13px;
+			line-height: 24px;
+			position: relative;
+			padding-bottom: 15px;
+			margin-bottom: 20px;
+			&:before {
+				content: "";
+				width: 30px;
+				height: 2px;
+				background-color: #eaeaea;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			blockquote {
+				font-size: 14px;
+				color: #333333;
+				font-family: @font-family_base4 ;
+				border-left: 3px solid #e9c77b;
+				padding-left: 29px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+		}
+		.post-item-tag {
+			font-size: 13px;
+			color: #888888;
+			float: left;
+			line-height: 28px;
+			
+			margin-bottom: 23px;
+			a {
+				color: #888888;
+				line-height: 28px;
+				&:hover {
+					color: @color-font_theme_skin1;
+				}
+			}
+			label {
+				font-size: 13px;
+				text-transform: uppercase;
+				color: #333;
+				padding: 0;
+				font-weight: normal;
+				margin-right: 3px;
+				line-height: 28px;
+			}
+		}
+		.post-item-share {
+			font-size: 18px;
+			color: #333;
+			float: right;
+			line-height: 28px;
+			
+			margin-bottom: 23px;
+			a {
+				color: #333;
+				margin-left: 5px;
+				line-height: 28px;
+				&:hover {
+					color: @color-font_theme_skin1;
+				}
+			}
+			label {
+				font-size: 13px;
+				text-transform: none;
+				color: #666666;
+				padding: 0;
+				font-weight: normal;
+				margin-right: 3px;
+				font-family: @font-family_base4;
+				font-style: italic;
+				line-height: 28px;
+			}
+		}
+	}
+
+	.post-arthur {
+		background-color: #f2ddb0;
+		margin-bottom: 25px;
+		.clearfix();
+		padding: 27px 35px  33px 53px; 
+		@media(max-width:479px) {
+			padding: 25px 20px;
+		}
+		.avata {
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			overflow: hidden;
+			margin-right: 20px;
+			float: left;
+			img {
+				display: block;
+			}
+		}
+		.des {
+			overflow: hidden;
+			font-size: 12px;
+			color: #555555;
+			font-family: @font-family_base4;
+			font-style: italic;
+			padding-top: 20px;
+			.name {
+				font-size: 13px;
+				color: #333;
+				font-weight: 600;
+				display: block;
+				font-family: @font-family_base;
+				font-style: normal;
+				margin-bottom: 8px;
+			}
+		}
+		
+	}
+}
+.block-comment-blog {
+	.list-commnet {
+		margin-bottom: 35px;
+		.block-title {
+			font-size: 18px;
+			color: #333;
+			font-weight: 600;
+			margin-bottom: 25px;
+			.clearfix();
+			.leaver-comment {
+				float: right;
+				font-size: 12px;
+				color: #888888;
+				font-family: @font-family_base4;
+				font-style: italic;
+				font-weight: normal;
+			}
+		}
+		.item {
+			border: 1px solid #ececec;
+			padding: 22px 29px 28px;
+			margin-bottom: 10px;
+			.user {
+				font-size: 14px;
+				color: #222222;
+				font-weight: 600;
+				margin-right: 25px;
+			}
+			.date {
+				color: #aaaaaa;
+				font-size: 13px;
+			}
+			.des {
+				font-size: 12px;
+				font-family: @font-family_base4;
+				font-style: italic;
+				margin-top: 12px;
+				margin-bottom: 15px;
+				color: #666666;
+			}
+			.actions {
+				text-align: right;
+				font-size: 12px;
+				color: #333333;
+				font-family: @font-family_base4;
+				font-style: italic;
+				margin-top: 45px;
+				.fa {
+					color: #8b8b8b;
+					font-size: 11px;
+					margin-left: 5px;
+				}
+				.reply {
+					&:hover {
+						color: @color-font_theme_skin1;
+						.fa {
+							color: @color-font_theme_skin1;
+						}
+					}
+				}
+				
+			}
+		}
+	}
+
+	.block-leave-reply {
+		margin-bottom: 70px;
+		.block-title {
+			font-size: 18px;
+			color: #333;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+		.form-group {
+			margin-bottom: 10px;
+		}
+		.form-control {
+			height: 40px;
+			padding-left: 10px;
+			font-size: 13px;
+			color: #888888;
+			max-width: 295px;
+			.placeholder(#888888);
+		}
+		textarea,
+		textarea.form-control {
+			height: 190px;
+			max-width: 510px;
+		}
+		.btn  {
+			height: 40px;
+			border-radius: 100px;
+			padding: 0 20px;
+			font-size: 12px;
+			margin-top: 10px;
+		}
+	}
+}

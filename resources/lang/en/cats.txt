@@ -1,0 +1,247 @@
+Apparel & Accessories	3	Apparel
+Accessories	200000297
+Costumes & Accessories	200000663
+Men's Clothing	200000343
+Novelty & Special Use	200000532
+Sportswears	200003274
+Women's Clothing	200000345
+World Apparel	200000666
+
+Automobiles & Motorcycles	34
+Auto Replacement Parts	200000212
+Car Electronics	200000285
+Exterior Accessories	200003427
+Interior Accessories	200003411
+Motorcycle Accessories & Parts	200000242
+Other Vehicle Parts & Accessories	200004043
+Roadway Safety	3015
+Tools, Maintenance & Care	200000258
+
+Beauty & Health	66
+Bath & Shower	200001288
+Fragrances & Deodorants	200001221
+Hair Care & Styling	200001168
+Health Care	200001355
+Makeup	660103
+Nail Art & Tools	200001147
+Oral Hygiene	3305
+Sanitary Paper	1513
+Sex Products	200001508
+Shaving & Hair Removal	660302
+Skin Care	3306
+Skin Care Tool	100000616
+Tattoo & Body Art	200001976
+Tools & Accessories	200001187
+
+Books for Local Russian	200004360	Art	200004644
+Business Literature	200004968
+Calendars. Diaries. Non-Text Editions	200004801
+Children's Literature	200004451
+Culture & The Arts	200004937
+Educational Literature. Education. Pedagogy	200004810
+Engineering And Science	200004578
+Fiction	200004854
+Foreign Languages. Teaching. Reading	200004593
+Gift Editions	200004631
+Home. Leisure. Family.	200004688
+Humanities & Social Sciences	200004377
+Informatics. Programming. Internet	200004361
+Legal Literature	200005012
+Medicine & Health	200004916
+References. Encyclopedia. Dictionaries	200004652
+Religion. Religious Science. Esoterics	200004552
+Tourism. Sport	200005055
+Computer & Office	7	Computer Components	200001076
+Computer Peripherals	200001081
+DIY Computer	200048142
+External Storage	200001074
+Laptop Accessories	200001083
+Laptops & Netbooks	200002303
+Memory Cards & Accessories	200004265
+Networking	200001077
+Office Electronics	200003782
+Tablets & PDAs Accessories	200001085
+
+Construction & Real Estate
+Boards	100005320
+Ceilings	100007099
+Curtain Walls & Accessories	100005265
+Doors, Gates & Windows	100007064
+Earthwork Products	100005281
+Fireplaces,Stoves	100007067
+Flooring & Accessories	100006266
+Functional Material	200001751
+Garden Landscaping & Decking	12504
+Kitchen & Bath Fixtures	100006265
+Ladders & Scaffoldings	1330
+Landscaping Stone	131211
+Metal Building Materials	200001382
+Plastic Building Materials	100005310
+Quarry Stone & Slabs	1312
+Stairs & Stair Parts	100007071
+Stone Carvings and Sculptures	131207
+Tiles & Accessories	100006285
+Timber	100005335
+
+Consumer Electronics	44
+Accessories& Parts	629
+Camera & Photo	100000305
+DIY Parts	200003314
+Electronic Cigarettes	200003561
+Games & Accessories	100000310
+Home Audio & Video Equipments	100000308
+Portable Audio & Video	100000306
+Portable HiFi	200003869
+Power Source	200003319
+Smart Electronics	200003803
+Electrical Equipment & Supplies	5	Connectors & Terminals	14190406
+Generators	141902
+Power Supplies	141911
+Switches	141906
+Wires, Cables & Cable Assemblies	141904
+Wiring Accessories	14190403
+Electronic Components & Supplies	502	Active Components	4001
+Electronic Accessories & Supplies	4003
+Optoelectronic Displays	4004
+Passive Components	4005
+Food	2	Tea	100007269
+Furniture	1503	Children Furniture	100003019
+Commercial Furniture	150301
+Furniture Parts	3708
+Home Furniture	150303
+Outdoor Furniture	150302
+Hair & Accessories	200003655	Accessory & Tools	200001481
+Blended Hair	200003436
+Certified Human Hair	200003656
+Feather Hair	200003435
+Synthetic Hair	200003434
+Hardware	42	Adhesives & Sealers	200001757
+Door Hardware	200001770
+Fasteners	1459
+Furniture Hardware	150306
+Windows Hardware	153803
+Home & Garden	15	Arts,Crafts & Sewing	200003937
+Bathroom Products	100003467
+Collectibles	200003998
+Festive & Party Supplies	100001824
+Garden Supplies	125
+Home Decor	3710
+Home Storage & Organization	1541
+Home Textile	405
+House Ornamentation	200003767
+Household Cleaning Tools & Accessories	1514
+Household Merchandises	200033149
+Kitchen,Dining & bar	200000920
+Pet Products	100006664
+Home Appliances	6	Air Conditioning Appliances	100000037
+Cleaning Appliances	100000038
+Home Appliance Parts	100000039
+Home Heaters	100000040
+Kitchen Appliances	100000041
+Laundry Appliances	100000042
+Refrigerators & Freezers	100000136
+Water Heaters	100000043
+Water Treatment Appliances	100000044
+Industry & Business	200001996	Machinery	43
+Mechanical Parts & Fabrication Services	41
+Packaging & Shipping	23
+Printing Materials	100005067
+Rubber & Plastics	80
+Service Equipment	2829
+Jewelry & Accessories	36	Fashion Jewelry	1509
+Fine Jewelry	200001680
+Lights & Lighting	39	Commercial Lighting	200001493
+Indoor Lighting	1504
+LED Lighting	390501
+Lighting Accessories	530
+Lighting Bulbs & Tubes	150402
+Outdoor Lighting	150401
+Portable Lighting	390503
+Professional Light	200001704
+Luggage & Bags	1524	Leisure Bags	3806
+Luggage & Travel Bags	152404
+Special Purpose Bags	3805
+Wallets & Holders	3803
+Mother & Kids	1501	Activity & Gear	200002039
+Baby Care	200001330
+Baby Clothing	310
+Baby Shoes	200000937
+Bedding	100003020
+Children's Clothing	311
+Children's Shoes	200000947
+Feeding	200002038
+Maternity	200000500
+Safety	200002006
+Office & School Supplies	21	Calendars,Planner & Cards	200001562
+Correction Supplies	100003125
+Cutting Supplies	100003131
+Desk Accessories & Organizer	211106
+Labels, Indexes & Stamps	200001561
+Notebooks & Writing Pads	100003155
+Office Adhesives & Tapes	100003134
+Office Binding Supplies	100003129
+Office Furniture	150304
+Painting Supplies	211111
+Paper	2112
+Pens, Pencils & Writing Supplies	200001743
+Presentation Boards	212002
+School & Educational Supplies	100003135
+Phones & Telecommunications	509	Communication Equipment	100001204
+Mobile Phone Accessories & Parts	100001205
+Telephones & Accessories	100001202
+Security & Protection	30	Access Control	3030
+Door Intercom	200004310
+Fire Protection	3009
+Security Alarm	200004311
+Smart Card System	200004309
+Video Surveillance	3011
+Workplace Safety Supplies	3007
+Shoes	322	Shoe Accessories	32210
+Sports & Entertainment	18	Baseball	200003646
+Camping & Hiking	100005529
+Cheerleading & Souvenirs	200003539
+Cycling	200003500
+Entertainment	200003538
+Fishing	100005537
+Fitness & Body Building	100005371
+Golf	100005360
+Hockey	200000554
+Horse Riding	100005551
+Hunting	100005563
+Musical Instruments	100005481
+Other Sports & Entertainment Product	200004194
+Racquet Sports	200003540
+Roller,Skateboard &Scooters	200003541
+Rugby	200003545
+Shooting	100005571
+Skiing & Snowboarding	200003543
+Sneakers	200000950
+Sport Bags	200046142
+Sportswear & Accessories	301
+Water Sports	100005657
+Tools	1420	Construction Tools	142016
+Hand Tools	142003
+Lifting Tools	100007498
+Measurement & Analysis Instruments	1537
+Power Tools	1417
+Tool Sets	200003955
+Tools Packaging	100007485
+Toys & Hobbies	26	Baby Toys	100001698
+Classic Toys	100001715
+Dolls & Stuffed Toys	200001725
+Electronic Toys	200001388
+Learning & Education	100001714
+Models & Building Toy	200001383
+Novelty & Gag Toys	200001384
+Outdoor Fun & Sports	100001719
+Puzzles & Magic Cubes	200001726
+Remote Control	200001385
+Travel and Coupon Services	200003498	Ctrip	200003674
+Rentals	200003510
+Russia Coupon Service	200004351
+Travel Discount Coupons	200003501
+Travel Products	200003518
+Watches	1511	Watches Accessories	200000121
+Weddings & Events	320	Special Occasion Dresses	200000749
+Wedding Accessories	100005787
+Wedding Party Dress	200000410

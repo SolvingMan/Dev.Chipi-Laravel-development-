@@ -1,0 +1,122 @@
+
+
+.footer-opt-9 {
+	background-color: #333333;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	.block-newletter {
+		margin-bottom: 15px;
+		max-width: 430px;
+		.block-title {
+			margin: 15px 0 17px;
+			font-size: 14px;
+			font-weight: normal;
+			line-height: 1.1;
+			color: #cccccc;
+			text-transform: uppercase;
+		}
+		.form-control {
+			height: 40px;
+			background-color: transparent;
+			border-color: #505050;
+		}
+		.btn-subcribe {
+			height: 40px;
+			font-size: 14px;
+			font-weight: 400;
+			background-color: #505050;
+			border-color: #505050;
+			color: #999999;
+		}
+	}
+	.block-social {
+		margin-bottom: 42px;
+		.block-title {
+			margin: 15px 0 17px;
+			font-size: 14px;
+			font-weight: normal;
+			line-height: 1.1;
+			color: #cccccc;
+			text-transform: uppercase;
+		}
+		.block-content {
+			a {
+				color: #aaaaaa;
+				margin-left: 19px;
+				&:last-child {
+					margin-left: 0;
+				}
+				&:hover {
+					background-color: @color-font_theme_skin9;
+					border-color: @color-font_theme_skin9;
+				}
+			}
+		}
+		
+	}
+	.footer-column {
+		margin-bottom: 33px;
+		padding-bottom: 2px;
+		padding-top: 25px;
+		.clearfix();
+		.column-left {
+			width: 60%;
+			float: right;
+			@media(max-width: 991px) {
+				width: 100%;
+			}
+		}
+
+		.column-right {
+			width: 40%;
+			float: right;
+			@media(max-width: 991px) {
+				width: 100%;
+			}
+		}
+		
+		.links {
+			li {
+				margin-bottom: 2px;
+			}
+			h3.title {
+				margin: 15px 0 13px;
+				font-size: 14px;
+				font-weight: normal;
+				line-height: 1.1;
+				color: #cccccc;
+				text-transform: uppercase;
+			}
+			a {
+				color: #999999;
+				font-size: 14px;
+				font-weight: 300;
+
+				&:hover ,
+				&:focus {
+					color: @color-font_theme_skin9;
+				}
+			}
+		}
+		
+	}
+	.footer-bottom {
+		border-top: 1px solid rgba(80, 80, 80, 0.6);
+	}
+	
+	.copyright {
+		float: right;
+		color: #cccccc;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.payment {
+		float: left;
+		img {
+			margin-right: 12px;
+			&:hover {
+				.filter(sepia(100%));
+			}
+		}
+	}
+}

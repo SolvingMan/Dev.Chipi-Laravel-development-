@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GiddyupStd';
+  src: url('GiddyupStd.eot');
+  src: url('GiddyupStd.woff2') format('woff2'),
+       url('GiddyupStd.woff') format('woff'),
+       url('GiddyupStd.ttf') format('truetype'),
+       url('GiddyupStd.svg#GiddyupStd') format('svg'),
+       url('GiddyupStd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

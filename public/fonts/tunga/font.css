@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Tunga';
+  src: url('Tunga.woff') format('woff'),
+       url('Tunga.ttf') format('truetype'),
+       url('Tunga.svg#Tunga') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tunga';
+  src: url('tunga.eot');
+  src: url('tunga.woff2') format('woff2'),
+       url('tunga.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,243 @@
+
+.footer-opt-1 {
+	background-color: #eeeeee;
+	padding-top: 24px;
+	.footer-column {
+		padding-bottom: 0;
+		
+		.links {
+			margin-bottom: 15px;
+			h3.title {
+				margin-bottom: 15px;
+			}
+			ul {
+				padding-right: 12px;
+			}
+			li {
+				list-style: disc;
+				list-style-position: outside;
+				font-size: 10px;
+				&:hover {
+					color: @color-font_theme_skin1;
+				}
+				a {
+					font-size: 14px;
+					color: #666666;
+					&:hover {
+						color: @color-font_theme_skin1;
+					}
+				}
+			}
+		}
+		.logo-footer {
+			margin-bottom: 10px;
+		}
+		.address {
+			color: #333333;
+			margin-bottom: 28px;
+			b {
+				font-size: 14px;
+			}
+		}
+		.block-social {
+			.block-title {
+				margin-bottom: 10px;
+			}
+			.block-content {
+				a {
+					width: 32px;
+					line-height: 32px;
+					height: 32px;
+					text-align: center;
+					border-radius: 0;
+					border: none;
+					color: #fff;
+					background-color: #415a99;
+					&:hover {
+						background-color: darken(#415a99, 15%);
+					}
+				}
+				.sh-pinterest {
+					background-color: #cb222a;
+					&:hover {
+						background-color: darken(#cb222a, 15%);
+					}
+				}
+				.sh-vk {
+					background-color: #5b7fa6;
+					&:hover {
+						background-color: darken(#5b7fa6, 15%);
+					}
+				}
+				.sh-twitter{
+					background-color: #00caff;
+					&:hover {
+						background-color: darken(#00caff, 15%);
+					}
+				}
+				.sh-google {
+					background-color: #da4735;
+					&:hover {
+						background-color: darken(#da4735, 15%);
+					}
+				}
+
+			}
+			
+		}
+	}
+
+	.block-newletter {
+		margin-bottom: 20px;
+		.block-title {
+			margin-bottom: 19px;
+		}
+		.btn-subcribe {
+			background-color: @color-font_theme_skin1;
+			color: #fff;
+			height: 30px;
+			padding: 0 10px;
+		}
+		.form-control {
+			height: 30px;
+			font-size: 13px;
+			color: #999999;
+			.placeholder(#999999);
+			text-align: center;
+			padding: 0 6px;
+			border: none;
+		}
+	}
+	.payment-methods {
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		padding: 15px 0;
+		.clearfix();
+		.block-title {
+			display: block;
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: bold;
+			width: 220px;
+			float: right;
+			line-height: 46px;
+		}
+		.block-content {
+			float: right;
+			width: calc(~"100% - "220px);
+			width: -moz-calc(~"100% - "220px);
+			width: -webkit-calc(~"100% - "220px);
+			width: -o-calc(~"100% - "220px);
+			.owl-carousel {
+				img {
+					width: auto;
+					height: 46px;
+				}
+			}
+			img {
+				cursor: pointer;
+				&:hover {
+					.filter(grayscale(100%));
+				}
+			}
+		}
+		@media(max-width: 767px) {
+			.block-title,
+			.block-content {
+				float: none;
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+
+	.footer-links {
+		padding: 26px 0 26px;
+		.title {
+			font-weight: bold;
+			color: #333333;
+			font-size: 13px;
+			text-transform: uppercase;
+		}
+		.links {
+			font-size: 13px;
+			text-transform: capitalize;
+			margin-bottom: 3px;
+			.clearfix();
+			
+			li {
+				display: inline-block;
+				&:last-child {
+					a {
+						&:after {
+							content: none;
+						}
+					}
+				}
+			}
+			a {
+				color: #666666;
+				display: block;
+				line-height: 24px;
+				position: relative;
+				padding-right: 6px;
+				padding-left: 9px;
+				&:after {
+					content: "";
+					width: 1px;
+					height: 12px;
+					background-color: #666666;
+					display: block;
+					position: absolute;
+					top: 50%;
+					margin-top: -6px;
+					left: 0;
+				}
+				&:hover {
+					color: @color-font_theme_skin1;
+				}
+			}
+			
+		}
+	}
+	.footer-bottom {
+		padding-top: 10px;
+		padding-bottom: 3px;
+		.links {
+			font-size: 13px;
+			ul {
+				margin-bottom: 0;
+			}
+			a {
+				color: #0066cc;
+				&:after {
+					background-color: #0066cc;
+					height: 13px;
+					margin-top: -6px;
+				}
+				&:hover {
+					color: @color-font_theme_skin1;
+				}
+			}
+		}
+	}
+
+	.copyright {
+		padding-bottom: 18px;
+		font-size: 13px;
+	}
+
+	.footer-column {
+		.col {
+			@media(max-width: 991px) {
+				&:nth-child(2n+1) {
+					clear: both;
+				}	
+			}
+			@media(max-width: 479px) {
+				width: 100%;	
+			}
+			
+		}
+	}
+}

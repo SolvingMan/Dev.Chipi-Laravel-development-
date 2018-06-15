@@ -1,0 +1,1 @@
+[08-Aug-2017 15:00:01 Asia/Jerusalem] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/chipi/dev.chipi.co.il/vendor/symfony/console/Input/ArgvInput.php on line 59

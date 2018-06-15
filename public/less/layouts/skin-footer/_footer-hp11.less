@@ -1,0 +1,149 @@
+
+
+.footer-opt-11 {
+	background-color: #333333;
+	padding: 0;
+	font-family: 'ProximaNova', sans-serif;
+	font-weight: 300;
+	.block-newletter {
+		margin-bottom: 15px;
+		max-width: 430px;
+		.block-title {
+			margin: 15px 0 19px;
+			font-size: 14px;
+			color: #fff;
+			text-transform: uppercase;
+			line-height: 1.1;
+			font-weight: 600;
+		}
+		.form-control {
+			height: 40px;
+			background-color: transparent;
+			border-color: #505050;
+		}
+		.btn-subcribe {
+			height: 40px;
+			font-size: 14px;
+			font-weight: 600;
+			background-color: #505050;
+			border-color: #505050;
+		}
+	}
+	.block-social {
+		margin-bottom: 45px;
+		.block-title {
+			margin: 15px 0 19px;
+			font-size: 14px;
+			color: #fff;
+			text-transform: uppercase;
+			line-height: 1.1;
+			font-weight: 600;
+		}
+		.block-content {
+			a {
+				color: #fff;
+				border-color: #fff;
+				margin-left: 20px;
+				width: 32px;
+				line-height: 30px;
+				&:last-child {
+					margin-left: 0;
+				}
+				&:hover {
+					background-color: @color-font_theme_skin11;
+					border-color: @color-font_theme_skin11;
+				}
+
+			}
+		}
+		
+	}
+	.footer-column {
+		margin-bottom: 14px;
+		padding-bottom: 0;
+		padding-top: 24px;
+		.clearfix();
+		.column-left {
+			width: 64%;
+			float: right;
+		}
+
+		.column-right {
+			width: 36%;
+			float: right;
+		}
+		@media(max-width: 991px) {
+			.column-left {
+				width: 100%;
+			}
+
+			.column-right {
+				width: 100%;
+			}
+		}
+		.links {
+			li {
+				margin-bottom: 5px;
+			}
+			h3.title {
+				margin: 15px 0 13px;
+				font-size: 14px;
+				color: #fff;
+				font-weight: 600;
+			}
+			a {
+				color: #999999;
+				&:hover ,
+				&:focus {
+					color: @color-font_theme_skin11;
+				}
+
+			}
+		}
+		
+	}
+	.footer-bottom {
+		border-top: 1px solid rgba(80, 80, 80, 0.6);
+		padding-bottom: 10px;
+		.links {
+			margin-bottom: 10px;
+			ul {
+				margin-bottom: 0;
+			}
+			a {
+				color: #999999;
+				line-height: 14px;
+				&:hover ,
+				&:focus {
+					color: @color-font_theme_skin11;
+				}
+				&:after {
+					background-color: #999999;
+				}
+				&:after {
+					height: 11px;
+					margin-top: -5px;
+ 				}
+			}
+		}
+	}
+	
+	.copyright {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 0;
+		margin-bottom: 15px;
+		
+	}
+	.payment {
+		display: block;
+		text-align: center;
+		img {
+			margin-right: 12px;
+			&:hover {
+				.filter(sepia(100%));
+			}
+		}
+	}
+}
