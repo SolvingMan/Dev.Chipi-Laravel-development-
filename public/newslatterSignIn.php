@@ -21,7 +21,7 @@ if(!empty($email))
     if($res==0)
     {
     ?>
-    <!-- <script>
+    <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
@@ -40,7 +40,7 @@ if(!empty($email))
 
 
 
-    </script> -->
+    </script>
     <?php 
 $name="";
 
